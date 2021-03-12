@@ -9,6 +9,7 @@
 import Foundation
 
 enum AppConstants : String{
+    case title = "Venues"
     case noVenues = "No Venues nearby"
     case ok = "OK"
     case refresh = "Refresh"

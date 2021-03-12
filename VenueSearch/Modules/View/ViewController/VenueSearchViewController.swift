@@ -38,6 +38,7 @@ class VenueSearchViewController: UIViewController {
 extension VenueSearchViewController {
     
     private func configureUI() {
+        self.title = AppConstants.title.rawValue
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: AppConstants.refresh.rawValue, style: .plain, target: self, action: #selector(VenueSearchViewController.getVenueList))
     }
     
