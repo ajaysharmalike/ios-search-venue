@@ -9,25 +9,62 @@
 /* Begin PBXBuildFile section */
 		861DE96925F9405300802005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DE96825F9405300802005 /* AppDelegate.swift */; };
 		861DE96B25F9405300802005 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DE96A25F9405300802005 /* SceneDelegate.swift */; };
-		861DE96D25F9405300802005 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DE96C25F9405300802005 /* ViewController.swift */; };
 		861DE97025F9405300802005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861DE96E25F9405300802005 /* Main.storyboard */; };
 		861DE97225F9405500802005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861DE97125F9405500802005 /* Assets.xcassets */; };
 		861DE97525F9405500802005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861DE97325F9405500802005 /* LaunchScreen.storyboard */; };
+		861DE98B25F947B300802005 /* VenueDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DE98A25F947B300802005 /* VenueDataController.swift */; };
+		861DE98D25F9499200802005 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DE98C25F9499200802005 /* Venue.swift */; };
+		861DE99025F94EC400802005 /* VenueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DE98F25F94EC400802005 /* VenueViewModel.swift */; };
+		861DE99225F94FB400802005 /* VenueCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DE99125F94FB400802005 /* VenueCellViewModel.swift */; };
+		861DE99625F9592400802005 /* VSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DE99525F9592400802005 /* VSConstants.swift */; };
+		861DE99825F9C9D100802005 /* UserAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DE99725F9C9D100802005 /* UserAlert.swift */; };
+		861DE99A25F9D24D00802005 /* VenueSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DE99925F9D24D00802005 /* VenueSearchViewController.swift */; };
+		861DE99C25FA006800802005 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DE99B25FA006800802005 /* LocationManager.swift */; };
+		861DE99E25FA03C900802005 /* MapProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DE99D25FA03C900802005 /* MapProvider.swift */; };
+		86452A0825FB023C0013B23D /* VenueSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86452A0725FB023C0013B23D /* VenueSearchTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86452A0A25FB023C0013B23D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 861DE95D25F9405300802005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 861DE96425F9405300802005;
+			remoteInfo = VenueSearch;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		861DE96525F9405300802005 /* VenueSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenueSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		861DE96825F9405300802005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		861DE96A25F9405300802005 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		861DE96C25F9405300802005 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		861DE96F25F9405300802005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		861DE97125F9405500802005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		861DE97425F9405500802005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		861DE97625F9405500802005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		861DE98A25F947B300802005 /* VenueDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDataController.swift; sourceTree = "<group>"; };
+		861DE98C25F9499200802005 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		861DE98F25F94EC400802005 /* VenueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueViewModel.swift; sourceTree = "<group>"; };
+		861DE99125F94FB400802005 /* VenueCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueCellViewModel.swift; sourceTree = "<group>"; };
+		861DE99525F9592400802005 /* VSConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSConstants.swift; sourceTree = "<group>"; };
+		861DE99725F9C9D100802005 /* UserAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAlert.swift; sourceTree = "<group>"; };
+		861DE99925F9D24D00802005 /* VenueSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueSearchViewController.swift; sourceTree = "<group>"; };
+		861DE99B25FA006800802005 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		861DE99D25FA03C900802005 /* MapProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProvider.swift; sourceTree = "<group>"; };
+		86452A0525FB023C0013B23D /* VenueSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VenueSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86452A0725FB023C0013B23D /* VenueSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueSearchTests.swift; sourceTree = "<group>"; };
+		86452A0925FB023C0013B23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		861DE96225F9405300802005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86452A0225FB023C0013B23D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				861DE96725F9405300802005 /* VenueSearch */,
+				86452A0625FB023C0013B23D /* VenueSearchTests */,
 				861DE96625F9405300802005 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				861DE96525F9405300802005 /* VenueSearch.app */,
+				86452A0525FB023C0013B23D /* VenueSearchTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,13 +97,102 @@
 			children = (
 				861DE96825F9405300802005 /* AppDelegate.swift */,
 				861DE96A25F9405300802005 /* SceneDelegate.swift */,
-				861DE96C25F9405300802005 /* ViewController.swift */,
+				861DE97F25F9432400802005 /* Modules */,
+				861DE98E25F94A2900802005 /* Helper */,
+				861DE99425F9587500802005 /* Utilities */,
+				861DE99325F9586700802005 /* Manager */,
 				861DE96E25F9405300802005 /* Main.storyboard */,
 				861DE97125F9405500802005 /* Assets.xcassets */,
 				861DE97325F9405500802005 /* LaunchScreen.storyboard */,
 				861DE97625F9405500802005 /* Info.plist */,
 			);
 			path = VenueSearch;
+			sourceTree = "<group>";
+		};
+		861DE97F25F9432400802005 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				861DE98225F9432400802005 /* Model */,
+				861DE98325F9432400802005 /* View */,
+				861DE98025F9432400802005 /* ViewModel */,
+				861DE98925F9479C00802005 /* DataController */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		861DE98025F9432400802005 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				861DE98F25F94EC400802005 /* VenueViewModel.swift */,
+				861DE99125F94FB400802005 /* VenueCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		861DE98225F9432400802005 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				861DE98C25F9499200802005 /* Venue.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		861DE98325F9432400802005 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				861DE98425F9432400802005 /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		861DE98425F9432400802005 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				861DE99925F9D24D00802005 /* VenueSearchViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		861DE98925F9479C00802005 /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				861DE98A25F947B300802005 /* VenueDataController.swift */,
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		861DE98E25F94A2900802005 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				861DE99725F9C9D100802005 /* UserAlert.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		861DE99325F9586700802005 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				861DE99B25FA006800802005 /* LocationManager.swift */,
+				861DE99D25FA03C900802005 /* MapProvider.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		861DE99425F9587500802005 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				861DE99525F9592400802005 /* VSConstants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		86452A0625FB023C0013B23D /* VenueSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				86452A0725FB023C0013B23D /* VenueSearchTests.swift */,
+				86452A0925FB023C0013B23D /* Info.plist */,
+			);
+			path = VenueSearchTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +215,24 @@
 			productReference = 861DE96525F9405300802005 /* VenueSearch.app */;
 			productType = "com.apple.product-type.application";
 		};
+		86452A0425FB023C0013B23D /* VenueSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86452A0C25FB023C0013B23D /* Build configuration list for PBXNativeTarget "VenueSearchTests" */;
+			buildPhases = (
+				86452A0125FB023C0013B23D /* Sources */,
+				86452A0225FB023C0013B23D /* Frameworks */,
+				86452A0325FB023C0013B23D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86452A0B25FB023C0013B23D /* PBXTargetDependency */,
+			);
+			name = VenueSearchTests;
+			productName = VenueSearchTests;
+			productReference = 86452A0525FB023C0013B23D /* VenueSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +245,10 @@
 				TargetAttributes = {
 					861DE96425F9405300802005 = {
 						CreatedOnToolsVersion = 11.7;
+					};
+					86452A0425FB023C0013B23D = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 861DE96425F9405300802005;
 					};
 				};
 			};
@@ -116,6 +266,7 @@
 			projectRoot = "";
 			targets = (
 				861DE96425F9405300802005 /* VenueSearch */,
+				86452A0425FB023C0013B23D /* VenueSearchTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +282,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86452A0325FB023C0013B23D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,13 +296,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				861DE96D25F9405300802005 /* ViewController.swift in Sources */,
 				861DE96925F9405300802005 /* AppDelegate.swift in Sources */,
+				861DE99A25F9D24D00802005 /* VenueSearchViewController.swift in Sources */,
+				861DE99C25FA006800802005 /* LocationManager.swift in Sources */,
+				861DE99E25FA03C900802005 /* MapProvider.swift in Sources */,
+				861DE99225F94FB400802005 /* VenueCellViewModel.swift in Sources */,
+				861DE99625F9592400802005 /* VSConstants.swift in Sources */,
+				861DE98D25F9499200802005 /* Venue.swift in Sources */,
+				861DE98B25F947B300802005 /* VenueDataController.swift in Sources */,
+				861DE99825F9C9D100802005 /* UserAlert.swift in Sources */,
 				861DE96B25F9405300802005 /* SceneDelegate.swift in Sources */,
+				861DE99025F94EC400802005 /* VenueViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86452A0125FB023C0013B23D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86452A0825FB023C0013B23D /* VenueSearchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86452A0B25FB023C0013B23D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 861DE96425F9405300802005 /* VenueSearch */;
+			targetProxy = 86452A0A25FB023C0013B23D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		861DE96E25F9405300802005 /* Main.storyboard */ = {
@@ -284,15 +466,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9T9P584ZJR;
 				INFOPLIST_FILE = VenueSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ttn.venue.VenueSearch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatasky.ttn.uat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TataSkyDevelopmentProfileUAT;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,17 +486,59 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9T9P584ZJR;
 				INFOPLIST_FILE = VenueSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ttn.venue.VenueSearch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatasky.ttn.uat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TataSkyDevelopmentProfileUAT;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86452A0D25FB023C0013B23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T9P584ZJR;
+				INFOPLIST_FILE = VenueSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttn.venue.VenueSearchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VenueSearch.app/VenueSearch";
+			};
+			name = Debug;
+		};
+		86452A0E25FB023C0013B23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T9P584ZJR;
+				INFOPLIST_FILE = VenueSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttn.venue.VenueSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VenueSearch.app/VenueSearch";
 			};
 			name = Release;
 		};
@@ -333,6 +559,15 @@
 			buildConfigurations = (
 				861DE97A25F9405500802005 /* Debug */,
 				861DE97B25F9405500802005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86452A0C25FB023C0013B23D /* Build configuration list for PBXNativeTarget "VenueSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86452A0D25FB023C0013B23D /* Debug */,
+				86452A0E25FB023C0013B23D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
